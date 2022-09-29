@@ -22,9 +22,9 @@ print(Student.institute);
 
   Student student2 = Student();
   print('Student 2 details');
-  print('name : ${bio.name = 'afsal'}');
-  print('age : ${bio.age = 23}');
-  print('place : ${bio.place ='Palakkad'}');
+  print('name : ${student2.name = 'afsal'}');
+  print('age : ${student2.age = 23}');
+  print('place : ${student2.place ='Palakkad'}');
 
   print(Student.course);
   print(Student.institute);
