@@ -11,11 +11,11 @@ class Student
 
 void main()
 {
-  Student student1 = Student();
+  Student bio = Student();
 print('Student 1 details');
-print('name : ${student1.name = 'shibin'}');
-print('age : ${student1.age = 23}');
-print('place : ${student1.place ='Palakkad'}');
+print('name : ${bio.name = 'shibin'}');
+print('age : ${bio.age = 23}');
+print('place : ${bio.place ='Palakkad'}');
 
 print(Student.course);
 print(Student.institute);
