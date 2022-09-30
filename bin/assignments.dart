@@ -8,9 +8,9 @@ List<int> num = [10,20,30,40];
       }
 for (var value in num)
   {
-    int sum = 0;
+    /*int sum = 0;*/
     print(value);
-sum = sum + num[index];
+/*sum = sum + num[index];*/
 
   }
           //another way
