@@ -43,6 +43,7 @@ int x=10;
 
 
   ///is typecast
+  print('is typecast');
   var data = 'hi'; //data is given as string value
   print(data is int); //chechking data is string or int.
 
@@ -71,7 +72,7 @@ var larg=(20>10)? 20 : 10;
 print('$larg is largest');
 
 int u=2 , v=3 , w=5;
-var la = (u > v) ? (u > w ? u : w ) : ( v>w ? v:w );
+var la = (u < v) ? (u > w ? u : w ) : ( v>w ? v:w );
 print(la);
 
 }

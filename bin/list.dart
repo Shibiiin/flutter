@@ -36,7 +36,7 @@ void main(){
                list2.add(1);
                print(list2);
 
-///list from() #4
+///list.from() #4
 List list3 = List.from([7,8,9]);
 list3.add(10);
 print('list3 =$list3');

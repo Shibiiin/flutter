@@ -1,19 +1,26 @@
+import 'dart:io';
+
 void main()
 {
-  List<String> alpha =['a','v','b','c'];
-List<int> num = [10,20,30,40];
+  /// #1 Sum of elements in a list.
 
-      for ( int index = 0 ; index < alpha.length ; index++) {
-        print(alpha[index]);
-      }
-for (var value in num)
-  {
-    /*int sum = 0;*/
-    print(value);
-/*sum = sum + num[index];*/
+  List<int> list =[1,-3,7,9,0,-6,4,-2,0,10,-8,5];
 
+  int sum = 0;
+  for ( int i = 0 ; i < list.length ; i++) {
+    sum = sum + list[i];
   }
-          //another way
-// for ( var value in list_name){}
+        print('sum of list = ${sum}');
+
+
+  /// #2 Largest number in list
+
+  print('Largest Number');
+  print(list.reduce((a, b) => a > b?  a : b));
+  
+  /// #3 Sum of even numbers
+
+
+
 
 }
