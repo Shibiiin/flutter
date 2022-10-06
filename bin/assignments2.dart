@@ -14,7 +14,6 @@ void main()
 
 
   /// #2 Largest number in list
-
   print('Largest Number');
   print(list.reduce((a, b) => a > b?  a : b));
   
