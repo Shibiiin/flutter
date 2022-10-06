@@ -17,6 +17,7 @@ class Mainclass{
 
   void main(){
 Mainclass obj = Mainclass();
+/// a function with same name as class name
 
 obj.show();
 
