@@ -11,14 +11,37 @@ void main()
     sum = sum + list[i];
   }
         print('sum of list = ${sum}');
+  print('*************');
 
+  /// 2. sum of even number from the list
+print('Sum of Even number');
 
-  /// #2 Largest number in list
+  print('*************');
+
+  /// #3 count of positive negative and zeros from the list
+print('Count of positive negative nd zeros');
+
+  print('*************');
+  /// #4 Largest number in list
   print('Largest Number');
   print(list.reduce((a, b) => a > b?  a : b));
-  
-  /// #3 Sum of even numbers
+  print('*************');
 
+
+  /// 5. Multiple of 2 from above list
+print('Multiple of 2');
+  List evenList = [];
+  List firstOddThenEven = [];
+
+  for (final i in list) {
+    if (i.isEven) {
+      evenList.add(i);
+    }
+
+  }
+
+  firstOddThenEven.addAll(evenList);
+  print(firstOddThenEven);
 
 
 
