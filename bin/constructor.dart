@@ -22,3 +22,9 @@ Mainclass obj = Mainclass();
 obj.show();
 
   }
+  
+/// Syntax
+  /// Class classname{
+/// Classname(){
+/// }
+/// }
