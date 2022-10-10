@@ -1,3 +1,4 @@
+
 class A{        ///parent class
   int a=10;         ///instance variable of A
 int c=30;
