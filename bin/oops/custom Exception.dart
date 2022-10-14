@@ -12,7 +12,7 @@ void checkmark(int mark){
   throw MyException('My Exception Occured');
   }
   else{
-    print('Passed');
+    print('you are Passed');
   }
 }
 
