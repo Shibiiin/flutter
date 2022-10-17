@@ -18,8 +18,8 @@ void checkmark(int mark){
 
 void main(){
   try{
-    checkmark(55);
+    checkmark(40);
   }catch(a){
-    print('mark should be > 50 $a');
+    print('You are failed');
   }
 }
