@@ -42,12 +42,15 @@ void main(){
   /// 4. Multiplication of 2
 
   print('Multiplication of 2');
-  var num=2;
-  for(var x=1; x<10; x++)
-  {
-    print('$num * $x = ${num *x}');
+  int num=2;
+  int summ=0, b=0;
+  for(int x=1; x<=10; x++) {
+      print('$num * $x = ${num *x}');
+print('Sum of Multiplication number');
+b=0*x;
+    summ = summ + (num * x);
   }
-
+print(summ);
   print('****************');
   /// 5. Sum of Even and odd number
 
